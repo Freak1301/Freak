@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+.pagination * {
+display: inline-block;
+vertical-align: middle;
+}
+
+.btn {
+    width: 50px;
+    border-radius: 3em;
+    border-width: 1px ;
+    background: transparent ;
+    cursor: pointer;
+}
+.pagination-list {
+    list-style: none;
+display:inline-block;
+
+}
+.pagination-item {
+display: inline-block;
+}
+.pagination-item a {
+    text-decoration: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: block;
+    text-align: center;
+    color: #000;
+    font-size: 14px;
+}
